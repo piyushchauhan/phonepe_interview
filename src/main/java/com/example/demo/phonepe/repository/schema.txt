@@ -1,0 +1,20 @@
+
+// users
+id          | long
+name        | string
+wallet_id   | long
+
+// wallets
+id      | long
+user_id | long
+balance | double
+
+
+// transactions
+id                  | long
+from_wallet_id      | long
+to_wallet_id        | long
+amount              | double
+created_at
+
+
